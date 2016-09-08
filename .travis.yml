@@ -10,8 +10,8 @@ os:
   - linux
   - osx
 env:
-  - TARGET_ARCH=x64
   global:
+    - TARGET_ARCH=x64
     - CXX=clang++
 osx_image: xcode7
 
