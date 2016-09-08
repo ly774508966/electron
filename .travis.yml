@@ -3,7 +3,7 @@ git:
 notifications:
   email: false
 
-language: nodejs
+language: node_js
 node_js:
   - "4"
 os:
