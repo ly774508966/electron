@@ -11,7 +11,8 @@ os:
   - osx
 env:
   - TARGET_ARCH=x64
-  - CXX=clang++
+  global:
+    - CXX=clang++
 osx_image: xcode7
 
 matrix:
